@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import FeaturedCard from './components/FeaturedCard';
+import FeaturedCard from './components/featuredCard/index';
 import Wrapper from './components/Wrapper';
 import featured from './featured.json';
 import './App.css';
