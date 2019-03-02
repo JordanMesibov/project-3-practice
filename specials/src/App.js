@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import featuredCard from './components/featuredCard';
+import FeaturedCard from './components/FeaturedCard';
 import Wrapper from './components/Wrapper';
 import featured from './featured.json';
 import './App.css';
@@ -21,7 +21,7 @@ class App extends Component {
         <h1 className="title">Featured</h1>
         {featuredList.map(featured => {
           return (
-            <featuredCard
+            <FeaturedCard
             key={featured.id}
             featuredId={featured.id}
             name={featured.name}

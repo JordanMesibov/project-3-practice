@@ -1,6 +1,6 @@
 import React from "react";
 
-function featuredCard(props) {
+function FeaturedCard(props) {
   return (
     <div className="card">
 
@@ -25,4 +25,4 @@ function featuredCard(props) {
   );
 }
 
-export default featuredCard;
+export default FeaturedCard;
